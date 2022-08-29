@@ -1,3 +1,4 @@
+// Write a program to check two strings are anagram or not.
 function Anagram(str1,str2){
     var a=str1.split('').sort().join('');
     var b=str2.split('').sort().join('');
